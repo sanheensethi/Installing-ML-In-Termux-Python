@@ -1,7 +1,11 @@
 # Installing-ML-In-Termux-Python
 This Script is installing Python and ML libararies in Android Mobile
 
-It Install :-
+Running Script : 
+
+sh ml-install.sh
+
+It Install :
 
 * Python 
 * Numpy

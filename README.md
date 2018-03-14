@@ -27,3 +27,5 @@ Resources :
 * Installing Scipy : [Redirect..](https://wiki.termux.com/wiki/Package_Management#its-pointless_.28live_the_dream.29)
 
 ML Beginner Examples : [Redirect](https://github.com/Subarno/MachineLearningPracticePrograms)
+
+@Sanheen Sethi

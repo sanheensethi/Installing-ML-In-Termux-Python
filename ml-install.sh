@@ -16,6 +16,7 @@ echo "${Blu}Updating Termux Files";
 echo "${Red}";
 apt update -y
 apt upgrade -y
+termux-setup-storage
 echo "";
 
 echo "${Red}Installing Libraries to install Python and  Python ML Pakages";
@@ -25,6 +26,11 @@ echo "";
 echo "${Blu}Installing Clang";
 echo "${Gre}";
 apt install clang -y
+echo "";
+
+echo "${Blu}Installing Git";
+echo "${Gre}";
+apt install git -y
 echo "";
 
 echo "${Blu}Installing Python";
@@ -126,7 +132,7 @@ echo "";
 
 echo "${Pur}Instructions to Use :";
 echo "";
-echo "${Red}Using Jupyter type in shell : jupyter (Press-Enter)";
+echo "${Red}Using Jupyter type in shell : jupyter-notebook (Press-Enter)";
 echo "";
 echo "${Red}Using MatplotLib in jupyter type : ";
 echo "${Red}import matplotlib";

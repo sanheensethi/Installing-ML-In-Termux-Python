@@ -1,0 +1,30 @@
+{
+  "name": "installing-ml-in-termux-python",
+  "version": "1.0.0",
+  "description": "This is the Script installing ml libraries and other packages in android ",
+  "main": "ml-install.sh",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanheensethi/Installing-ML-In-Termux-Python.git"
+  },
+  "keywords": [
+    "mllibraries",
+    "python",
+    "numpy",
+    "pandas",
+    "jupyter",
+    "scipy",
+    "termux",
+    "machinelearninginandroid",
+    "mlinandroid"
+  ],
+  "author": "Sanheen Sethi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sanheensethi/Installing-ML-In-Termux-Python/issues"
+  },
+  "homepage": "https://github.com/sanheensethi/Installing-ML-In-Termux-Python#readme"
+}

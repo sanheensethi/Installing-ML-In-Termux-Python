@@ -1,6 +1,10 @@
 # Installing-ML-In-Termux-Python
 This Script is installing Python and ML libararies in Android Mobile
 
+Requirement :
+
+Termux from Playstore [Download..](https://play.google.com/store/apps/details?id=com.termux)
+
 Running Script : 
 
 sh ml-install.sh

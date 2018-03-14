@@ -9,7 +9,7 @@ Run Script :
 
 sh ml-install.sh
 
-It Install :
+Script Installs :
 
 * Python 
 * Numpy

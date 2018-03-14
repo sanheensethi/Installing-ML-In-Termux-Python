@@ -5,7 +5,7 @@ Requirement :
 
 Termux from Playstore [Download..](https://play.google.com/store/apps/details?id=com.termux)
 
-Running Script : 
+Run Script : 
 
 sh ml-install.sh
 

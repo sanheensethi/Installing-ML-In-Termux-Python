@@ -5,6 +5,14 @@ Requirement :
 
 Termux from Playstore [Download..](https://play.google.com/store/apps/details?id=com.termux)
 
+After Installing Type commands
+
+● apt update && apt upgrade -y
+● apt install git -y
+● git clone https://github.com/sanheensethi/Installing-ML-In-Termux-Python.git
+ 
+ When Script Downloaded.
+ 
 Run Script : 
 
 sh ml-install.sh
@@ -18,8 +26,6 @@ Script Installs :
 * Jupyter
 * Scipy
 * Scikit-Learn
-* Keras
-* Anaconda
 
 Resources :
  

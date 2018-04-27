@@ -120,16 +120,6 @@ echo "${Gre}";
 LDFLAGS=" -lm -lcompiler_rt" pip install scikit-learn
 echo "";
 
-echo "${Blu}Installing Keras";
-echo "${Gre}";
-LDFLAGS=" -lm -lcompiler_rt" pip install scikit-learn
-echo "";
-
-echo "${Blu}Installing Anaconda";
-echo "${Gre}";
-LDFLAGS=" -lm -lcompiler_rt" pip install scikit-learn
-echo "";
-
 echo "${Pur}Instructions to Use :";
 echo "";
 echo "${Red}Using Jupyter type in shell : jupyter-notebook (Press-Enter)";

@@ -83,6 +83,11 @@ echo "${Gre}";
 apt install pkg-config -y
 echo "";
 
+echo "${Blu}Updating PIP";
+echo "${Gre}";
+pip install --upgrade pip
+echo "";
+
 echo "${Blu}Installing Numpy";
 echo "${Gre}";
 LDFLAGS=" -lm -lcompiler_rt" pip install numpy

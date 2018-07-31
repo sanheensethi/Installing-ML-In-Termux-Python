@@ -91,21 +91,25 @@ echo "";
 echo "${Blu}Installing Numpy";
 echo "${Gre}";
 LDFLAGS=" -lm -lcompiler_rt" pip install numpy
+pip install numpy
 echo "";
 
 echo "${Blu}Installing Matplotlib";
 echo "${Gre}";
 LDFLAGS=" -lm -lcompiler_rt" pip install matplotlib
+pip install matplotlib
 echo "";
 
 echo "${Blu}Installing Pandas";
 echo "${Gre}";
 LDFLAGS=" -lm -lcompiler_rt" pip install pandas
+pip install pandas
 echo "";
 
 echo "${Blu}Installing Jupyter";
 echo "${Gre}";
 LDFLAGS=" -lm -lcompiler_rt" pip install jupyter
+pip install jupyter
 echo "";
 
 echo "${Blu}Installing Wget";
@@ -123,6 +127,7 @@ echo "";
 echo "${Blu}Installing Scikit-learn";
 echo "${Gre}";
 LDFLAGS=" -lm -lcompiler_rt" pip install scikit-learn
+pip install scikit-learn
 echo "";
 
 echo "${Pur}Instructions to Use :";

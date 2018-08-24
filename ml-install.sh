@@ -91,25 +91,21 @@ echo "";
 echo "${Blu}Installing Numpy";
 echo "${Gre}";
 LDFLAGS=" -lm -lcompiler_rt" pip install numpy
-pip install numpy
 echo "";
 
 echo "${Blu}Installing Matplotlib";
 echo "${Gre}";
 LDFLAGS=" -lm -lcompiler_rt" pip install matplotlib
-pip install matplotlib
 echo "";
 
 echo "${Blu}Installing Pandas";
 echo "${Gre}";
 LDFLAGS=" -lm -lcompiler_rt" pip install pandas
-pip install pandas
 echo "";
 
 echo "${Blu}Installing Jupyter";
 echo "${Gre}";
 LDFLAGS=" -lm -lcompiler_rt" pip install jupyter
-pip install jupyter
 echo "";
 
 echo "${Blu}Installing Wget";
@@ -127,12 +123,19 @@ echo "";
 echo "${Blu}Installing Scikit-learn";
 echo "${Gre}";
 LDFLAGS=" -lm -lcompiler_rt" pip install scikit-learn
-pip install scikit-learn
 echo "";
+
+pip install jupyter
+pip install numpy
+pip install matplotlib
+pip install pandas
+pip install scikit-learn
+
+sh ml-install.sh
 
 echo "${Pur}Instructions to Use :";
 echo "";
-echo "${Red}Using Jupyter type in shell : jupyter-notebook (Press-Enter)";
+echo "${Red}Using Jupyter type in shell : jupyter notebook (Press-Enter)";
 echo "";
 echo "${Red}Using MatplotLib in jupyter type : ";
 echo "${Red}import matplotlib";

@@ -93,6 +93,11 @@ echo "${Gre}";
 LDFLAGS=" -lm -lcompiler_rt" pip install numpy
 echo "";
 
+echo "${Blu}Installing Zlib Zlib-dev";
+echo "${Gre}";
+apt install zlib zlib-dev
+echo ""
+
 echo "${Blu}Installing Matplotlib";
 echo "${Gre}";
 LDFLAGS=" -lm -lcompiler_rt" pip install matplotlib
@@ -122,7 +127,13 @@ echo "";
 
 echo "${Blu}Installing Scikit-learn";
 echo "${Gre}";
+pip install cython
 LDFLAGS=" -lm -lcompiler_rt" pip install scikit-learn
+echo "";
+
+echo "${Blu}Installing Scikit-learn";
+echo "${Gre}";
+apt install opencv -y
 echo "";
 
 pip install jupyter
@@ -131,7 +142,6 @@ pip install matplotlib
 pip install pandas
 pip install scikit-learn
 
-sh ml-install.sh
 
 echo "${Pur}Instructions to Use :";
 echo "";

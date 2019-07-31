@@ -131,7 +131,7 @@ pip install cython
 LDFLAGS=" -lm -lcompiler_rt" pip install scikit-learn
 echo "";
 
-echo "${Blu}Installing Scikit-learn";
+echo "${Blu}Installing OPEN-CV";
 echo "${Gre}";
 apt install opencv -y
 echo "";
